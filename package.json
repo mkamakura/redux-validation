@@ -1,7 +1,7 @@
 {
   "name": "redux-validation",
   "description": "redux middleware, validation for action property",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "author": "Masaya Kamakura <kamakura.masaya@gmail.com> (https://github.com/mkamakura)",
   "bugs": {
     "url": "https://github.com/mkamakura/redux-validation/issues"
