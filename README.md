@@ -21,7 +21,7 @@ export default function() {
 }
 ```
 
-- createAction of `redux-actions`
+- createAction of [redux-actions](https://github.com/acdlite/redux-actions)
 ```js
 export const sample = createAction(ACTION_TYPE, (payload) => paylaod, () => ({
   validation: {
@@ -35,7 +35,7 @@ export const sample = createAction(ACTION_TYPE, (payload) => paylaod, () => ({
 });
 ```
 
-- handleActions of `redux-actions`
+- handleActions of [redux-actions](https://github.com/acdlite/redux-actions)
 ```js
 export default handleActions({
   [ACTION_TYPE]: (state, { payload: { data, validation } }) => ({
