@@ -21,6 +21,6 @@ export default function validationMiddleware() {
         });
     });
 
-		next(Object.assign({}, action, { payload: { data: action.payload, validation: validationMessages } }));
+    next(Object.assign({}, action, { payload: { data: action.payload, validation: validationMessages } }));
   }
 }
